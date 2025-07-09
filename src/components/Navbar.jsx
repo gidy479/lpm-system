@@ -65,6 +65,7 @@ export default function Navbar({ isLoggedIn, onLogout }) {
                 </Link>
               </>
             )}
+            {/* show when logged in */}
             {isLoggedIn ? (
               <button
                 onClick={onLogout}
